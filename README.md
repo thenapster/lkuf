@@ -4,7 +4,7 @@ This project is intended to Linux kernel developers The objective of this projec
 In fact, the kernel includes a lot of utility functions that we sometime need when extending or building a kernel module.
 Most of the time, especially kernel developer beginners or students, tend to reimplement such functions, leading to time waste.
 The goal of this wiki is to summarize at the same place the list of such functions with a brief description.
-For the moment, we keep all the descriptions in the [same page](lkuf).
+For the moment, we keep all the descriptions in the [same page](lkuf.md).
 We will probably organized things when the number of functions will be important.
 Feel free to contribute!
 
@@ -15,5 +15,5 @@ the location inside the kernel, the kernel version, the description of the lkuf 
 the utilization of that lkuf.
 
 Here is the current list of lkuf which composed the project:
-* [find_thread_by_pid](lkuf#find_thread_by_pid)
-* [virt_to_phys](lkuf#virt_to_phys)
+* [find_thread_by_pid](lkuf.md#find_thread_by_pid)
+* [virt_to_phys](lkuf.md#virt_to_phys)
